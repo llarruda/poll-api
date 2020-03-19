@@ -1,0 +1,19 @@
+{
+  "name": "poll-api",
+  "version": "1.0.0",
+  "description": "A REST API to use polls.",
+  "main": "app.js",
+  "repository": "https://github.com/llarruda/poll-api.git",
+  "author": "Leandro Arruda",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.5"
+  }
+}
